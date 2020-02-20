@@ -1,3 +1,6 @@
+/* DESIGN/FORMATTING*/
+
+
 * {
 color: #FC9483;
 font-family: sans-serif;
@@ -87,9 +90,7 @@ div tbody td{
 
 
 
-
-
-
+/* TIC TAC TOE*/
 
 
 
@@ -189,4 +190,24 @@ div tbody td{
   max-width: 100%;
   max-height: 100%;
   margin: 3%;
+}
+
+
+
+/* CONNECT 4*/
+
+
+
+
+
+
+
+/* BRICK BREAKER*/
+
+canvas{
+  background: #00ff00;
+  background: -webkit-linear-gradient(#00ff00, pink);
+  background-color: lightgreen;
+  display: block;
+  margin: 0 auto;
 }
