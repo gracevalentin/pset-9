@@ -195,20 +195,14 @@ div tbody td{
 
 
 
-/* CONNECT 4*/
-
-
-
-
-
 
 
 /* BRICK BREAKER*/
 
-canvas{
-  background: #00ff00;
-  background: -webkit-linear-gradient(#00ff00, pink);
-  background-color: lightgreen;
-  display: block;
-  margin: 0 auto;
+
+
+
+canvas {
+  background: rgb(255,91,107);
+  background: linear-gradient(130deg, rgba(255,91,107,1) 0%, rgba(255,182,197,1) 100%);
 }
