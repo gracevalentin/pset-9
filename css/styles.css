@@ -60,14 +60,6 @@ header {
 
 p {padding: 0px 150px 0px}
 
-table {padding: 10px 10px 10px}
-
-
-table.center {
-  margin-left: 30%;
-  margin-right: 30%;
-}
-
 .center {
   display: block;
   margin-left: auto;
@@ -143,11 +135,11 @@ div tbody td{
 
 .square {
   border: 1px solid rgba(0, 0, 0, 0.75);
-  font-size: 6em;
-  height: 33%;
+  font-size: 96px;
+  height: 150px;
   line-height: 150px;
   user-select: none;
-  width: 30%;
+  width: 150px;
 }
 
 /*
@@ -171,7 +163,7 @@ div tbody td{
   line-height: 55px;
   margin: 1%;
   text-align: center;
-  width: 50%;
+  width: 456px;
 }
 
 /*
@@ -186,11 +178,7 @@ div tbody td{
 }
 
 #board{
-  width:70vw;
-  height:70vh;
   max-width: 100%;
-  max-height: 100%;
-  margin: 3%;
 }
 
 
