@@ -63,3 +63,36 @@ function calculateWinners(){
                 return;
             }
           }
+          if (i === 0 || i === 1) {
+            if (j === 0 || j === 1 || j === 2 || j === 3) {
+              if (grid[i + 1][j + 1].color === square.color &&
+                 grid[i + 2][j + 2].color === square.color &&
+                 grid[i + 3][j + 3].color === square.color ) {
+                   aColorWins(square.color);
+                  return;
+                }
+              }
+
+              if (j === 3 || j === 4 || j === 5 || j === 6) {
+                if (grid[i + 1][j - 1].color === square.color &&
+                   grid[i + 2][j - 2].color === square.color &&
+                   grid[i + 3][j - 3].color === square.color ) {
+                  aColorWins(square.color);
+                 // console.log("A color wins!");
+                   return;
+                }
+              }
+            }
+          }
+        }
+     }
+
+   }
+
+
+   function aColorWins(color) {
+     gameInPlay = false;
+     document.getElementById("whoWon").innerHTML = `${color} wins!`;
+   }
+   restart();
+   //render();
