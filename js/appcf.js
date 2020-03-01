@@ -39,7 +39,7 @@ window.clickSquare = (x,y)=>{
     var targetPlace = row[x];
      if (!targetPlace.color) {
        row[x] = {color:currentColor};
-       currentColor = currentColor === "red" ? "black" : "red";
+       currentColor = currentColor === "red" ? "blue" : "red";
        render();
        calculateWinners();
        return;

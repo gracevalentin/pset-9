@@ -203,16 +203,9 @@ canvas {
 
 
 
-svg {
-  width: 1000px;
-  height: 1000px;
-  position: absolute;
-  left: 50px;
-  top: 50px;
-}
-
 #c4board {
-  justify-content: center;
+  top: 200px;
   align-items: center;
-  margin-top: 30%;
-  }
+  display: flex;
+  justify-content: center;
+}
