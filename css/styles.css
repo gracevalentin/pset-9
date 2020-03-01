@@ -210,3 +210,9 @@ svg {
   left: 50px;
   top: 50px;
 }
+
+#c4board {
+  justify-content: center;
+  align-items: center;
+  margin-top: 30%;
+  }

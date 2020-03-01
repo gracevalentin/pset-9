@@ -48,7 +48,6 @@ window.clickSquare = (x,y)=>{
 }
 
 function calculateWinners(){
-  console.log("Is there a winner?");
   for (var i = 0; i < grid.length; i++) {
     var row = grid[i];
      for (var j = 0; j < row.length; j++) {
@@ -78,7 +77,6 @@ function calculateWinners(){
                    grid[i + 2][j - 2].color === square.color &&
                    grid[i + 3][j - 3].color === square.color ) {
                   aColorWins(square.color);
-                 // console.log("A color wins!");
                    return;
                 }
               }
