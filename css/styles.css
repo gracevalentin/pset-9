@@ -205,6 +205,13 @@ canvas {
 
 #c4board {
   top: 200px;
+}
+
+svg{
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 20%;
+  margin-left: 20%;
   align-items: center;
   display: flex;
   justify-content: center;
