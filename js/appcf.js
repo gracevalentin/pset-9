@@ -85,7 +85,6 @@ function calculateWinners(){
           }
         }
      }
-
    }
 
    function aColorWins(color) {
