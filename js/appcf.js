@@ -1,5 +1,6 @@
 let grid = [];
 let gameInPlay = false;
+let turn;
 
 window.restart = ()=>{
  grid = [
@@ -87,10 +88,9 @@ function calculateWinners(){
 
    }
 
-
    function aColorWins(color) {
      gameInPlay = false;
      document.getElementById("whoWon").innerHTML = `${color} wins!`;
    }
    restart();
-   //render();
+   render();
