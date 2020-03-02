@@ -12,6 +12,7 @@ window.restart = ()=>{
 ];
  gameInPlay = true;
  render();
+ document.getElementById("whoWon").innerHTML = ``;
 }
 
 const render = ()=>{
