@@ -190,7 +190,7 @@ div tbody td{
 
 
 
-canvas {
+#myCanvas {
   background: rgb(255,91,107);
   background: linear-gradient(130deg, rgba(255,91,107,1) 0%, rgba(255,182,197,1) 100%);
 }
@@ -205,14 +205,16 @@ canvas {
 
 #c4board {
   top: 200px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
 }
 
 svg{
+  align-items: center;
+  display: block;
+  justify-content: center;
   max-width: 100%;
   max-height: 100%;
-  margin-right: 20%;
-  margin-left: 20%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  margin: auto;
 }
