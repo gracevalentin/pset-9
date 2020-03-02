@@ -92,4 +92,4 @@ function calculateWinners(){
      document.getElementById("whoWon").innerHTML = `${color} wins!`;
    }
    restart();
-   render();
+  // render();
