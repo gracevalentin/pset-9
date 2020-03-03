@@ -50,7 +50,9 @@ header {
     letter-spacing: 3px
 }
 
-p {padding: 0px 150px 0px}
+p {
+  padding: 0px 150px 0px
+}
 
 .center {
   display: block;
