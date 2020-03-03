@@ -1,3 +1,9 @@
+let board;
+let turn;
+let win;
+var pointsX = 0;
+var pointsY = 0;
+
 const winningConditions = [
   [0, 1, 2],
   [3, 4, 5],
@@ -8,12 +14,6 @@ const winningConditions = [
   [0, 4, 8],
   [2, 4, 6]
 ];
-
-let board;
-let turn;
-let win;
-var pointsX = 0;
-var pointsY = 0;
 
 const squares = Array.from(document.querySelectorAll("#board div"));
 const message = document.querySelector("h3");   // grab the subheader
