@@ -7,8 +7,9 @@ font-family: sans-serif;
 }
 
 h1 {
-     text-align: center;
-     font-size: 40px
+    text-align: center;
+    font-size: 40px;
+    color: #75DE2F;
 }
 
 h2, h3, h4, h5, h6 {
