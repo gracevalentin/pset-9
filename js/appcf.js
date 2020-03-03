@@ -88,8 +88,8 @@ function calculateWinners(){
      }
    }
 
-   function aColorWins(color) {
-     gameInPlay = false;
-     document.getElementById("whoWon").innerHTML = `${color} wins!`;
-   }
-   restart();
+function aColorWins(color) {
+  gameInPlay = false;
+  document.getElementById("whoWon").innerHTML = `${color} wins!`;
+}
+restart();
