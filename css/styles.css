@@ -49,18 +49,18 @@ header {
 }
 
 p {
-  padding: 0px 150px 0px
+    padding: 0px 150px 0px
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: inherit;
 }
 
 a:hover {
-  color: green;
+    color: green;
 }
 
 a[title] {
@@ -68,7 +68,7 @@ a[title] {
 }
 
 div tbody td{
-  color:green
+    color:green
 }
 
 
@@ -80,11 +80,11 @@ div tbody td{
 
 
 #scoreboard1{
-  background-color:#f9e6ff;
+    background-color:#f9e6ff;
 }
 
 #scoreboard2{
-  background-color:#ecffe6;
+    background-color:#ecffe6;
 }
 
 /*
